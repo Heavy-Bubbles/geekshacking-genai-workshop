@@ -18,3 +18,4 @@ result = llm.invoke(prompt.format(input=text))
 
 print(f'Your question: {text}\n')
 print(f'Answer: {result.content}')
+
